@@ -740,20 +740,35 @@ footer img {
     padding: 2.5% 5%;
   }
 
+  .happiness-right {
+    text-align: center;
+  }
+
   .happiness-image img {
     max-width: 100%;
   }
 
-  h1, h2, h3, h4, h5, h6, .number-title h2, .help-text h2, .subscribe-content h2 {
+  h1, h2, h3, h4, h5, h6, .number-title h2, .help-text h2, .subscribe-content h2, .stats-content h2, .about-content h2, .team-content h2, .method-content h2, .contact-container h2 {
     font-size: 1.5rem;
   }
 
-  p {
+  p, .stats-content p, .about-content p, .team-content p, .method-content p, .contact-container p {
     font-size: 12px;
   }
 
+  .help-content{
+    text-align: center;
+  }
   .subscribe-container {
     flex-direction: column;
+  }
+
+  .numbers-container {
+    padding: 29px;
+  }
+
+  .section-numbers {
+    padding-top: 40px;
   }
 
   .subscribe-content {
@@ -769,6 +784,14 @@ footer img {
 
   .number-paragrapht p, .help-text p{
     font-size: 12px;
+  }
+
+  .stats-image {
+    padding-top: 0;
+  }
+
+  .method-section {
+    text-align: center;
   }
 }
 
