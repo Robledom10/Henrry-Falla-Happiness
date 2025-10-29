@@ -15,9 +15,10 @@ p, a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Bebus Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
 }
+
 .browse {
   padding: 0px 10%;
   display: flex;
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f5cb00;
   align-items: center;
   height: 12vh;
-  font-family: "Bebus Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -70,7 +71,7 @@ nav ul li a {
 }
 
 .happiness-title {
-  font-family: "Bebus Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 2.2rem;
   max-width: 500px;
 }
@@ -90,22 +91,26 @@ nav ul li a {
 .happiness-buttom a {
   text-decoration: none;
   background-color: #f5cb00;
-  color:#000;
+  color: #000;
   padding: 10px 35px;
-  font-family: "Bebus Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
 }
 
 /* ======== SECCIÓN: HAPPINESS IN NUMBERS ======== */
 .section-numbers {
-  background-color: #f5cb00; /* fondo amarillo */
-  position: relative; /* referencia para el bloque flotante */
-  padding-top: 140px; /* da espacio arriba para que se vea el solapamiento */
+  background-color: #f5cb00;
+  /* fondo amarillo */
+  position: relative;
+  /* referencia para el bloque flotante */
+  padding-top: 140px;
+  /* da espacio arriba para que se vea el solapamiento */
   padding-bottom: 80px;
 }
 
 .numbers-container {
-  background-color: #eaeaea; /* bloque gris */
+  background-color: #eaeaea;
+  /* bloque gris */
   max-width: 1000px;
   margin: auto;
   display: flex;
@@ -114,7 +119,8 @@ nav ul li a {
   padding: 50px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: -100px; /* hace que el bloque se suba y se superponga a la sección anterior */
+  top: -100px;
+  /* hace que el bloque se suba y se superponga a la sección anterior */
   left: 50%;
   transform: translateX(-50%);
   border-radius: 4px;
@@ -144,7 +150,7 @@ nav ul li a {
 .numbers-link a {
   color: #000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* ======== LADO DERECHO ======== */
@@ -166,7 +172,8 @@ nav ul li a {
 
 /* ======== SECCIÓN: WE CAN HELP YOU ======== */
 .section-help {
-  background-color: #f5cb00; /* amarillo principal */
+  background-color: #f5cb00;
+  /* amarillo principal */
 }
 
 .help-content {
@@ -204,7 +211,7 @@ nav ul li a {
   text-decoration: none;
   padding: 12px 25px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   display: inline-block;
 }
 
@@ -253,6 +260,7 @@ nav ul li a {
 .stats-content {
   padding: 40px;
   flex: 1;
+  max-width: 30%;
 }
 
 .stats-content h2 {
@@ -273,7 +281,7 @@ nav ul li a {
   background-color: #000;
   color: #fff;
   padding: 12px 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   border-radius: 3px;
   transition: 0.3s ease;
@@ -298,11 +306,22 @@ nav ul li a {
   background-color: #000;
   color: #fff;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.about-content {
+  max-width: 66%;
 }
 
 .about-content h2 {
@@ -331,7 +350,7 @@ nav ul li a {
   background-color: #f5cb00;
   color: #000;
   padding: 12px 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   border-radius: 4px;
   transition: 0.3s ease;
@@ -378,6 +397,7 @@ nav ul li a {
   line-height: 1.6;
   color: #333;
   margin-bottom: 25px;
+  max-width: 78%;
 }
 
 .btn-read-more {
@@ -385,7 +405,7 @@ nav ul li a {
   background-color: #f5cb00;
   color: #000;
   padding: 12px 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   border-radius: 4px;
   transition: 0.3s ease;
@@ -405,11 +425,11 @@ nav ul li a {
 }
 
 .method-content {
-  max-width: 480px;
+  max-width: 442px;
 }
 
 .method-content h2 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   margin-bottom: 20px;
 }
 
@@ -424,7 +444,7 @@ nav ul li a {
   color: #000;
   border: none;
   padding: 10px 20px;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -509,10 +529,246 @@ nav ul li a {
   border: none;
   padding: 10px 25px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   transition: background 0.3s;
 }
 
 .btn-black:hover {
   background-color: #333;
 }
+
+/* ================================
+   SECTION: CONTACT
+   ================================ */
+
+.section-contact {
+  background-color: #f5cb00;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  color: #222;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.map-container {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+
+.btn-black {
+  font-family: "Open sans", sans-serif;
+  background: #000;
+  color: #fff;
+  padding: 12px 35px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-black:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #FFD700;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+}
+
+.footer a {
+  color: #FFD700;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  font-weight: 700;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .social-icons a {
+  margin-left: 15px;
+}
+
+.footer hr {
+  border: 0.5px solid white;
+  margin-bottom: 15px;
+}
+
+footer img {
+  color: #FFD700;
+}
+
+@media (max-width: 1279px) {
+
+  .happiness-container {
+    justify-content: center;
+  }
+
+  .number-stats {
+    gap: 0;
+    margin-left: 10px;
+  }
+
+  .number-img-2 img {
+    display: none;
+  }
+
+  .stats-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .team-container {
+    justify-content: center;
+  }
+
+  .team-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-content p {
+    text-align: center;
+  }
+
+  .method-content {
+    max-width: 350px;
+  }
+
+  .method-content h2 {
+    font-size: 3.5rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 920px) {
+  .number-img-1 img {
+    display: none;
+  }
+
+  .numbers-left {
+    align-items: center;
+  }
+
+  .number-title h2, .number-paragrapht p {
+    text-align: center;
+  }
+
+  .stats-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .stats-container {
+    flex-direction: column;
+  }
+
+  .stats-chart {
+    display: none;
+  }
+
+  .method-image {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .browse {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10%;
+    gap: 15px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 2.5% 5%;
+  }
+
+  .happiness-image img {
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6, .number-title h2, .help-text h2, .subscribe-content h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .subscribe-container {
+    flex-direction: column;
+  }
+
+  .subscribe-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .help-image {
+    display: none;
+  }
+
+  .number-paragrapht p, .help-text p{
+    font-size: 12px;
+  }
+}
+
